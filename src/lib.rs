@@ -55,7 +55,7 @@ mod ffi_utils;
 #[cfg_attr(target_os = "aix", path = "tz_aix.rs")]
 #[cfg_attr(target_os = "android", path = "tz_android.rs")]
 #[cfg_attr(target_os = "haiku", path = "tz_haiku.rs")]
-#[cfg_attr(target_os = "twizzler", path = "twizzler.rs")]
+#[cfg_attr(target_os = "twizzler", path = "tz_twizzler.rs")]
 mod platform;
 
 /// Error types
